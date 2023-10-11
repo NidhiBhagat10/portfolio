@@ -1,0 +1,369 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;500&family=Nunito:wght@500&display=swap');
+
+* {
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Variable */
+
+:root {
+    --lightred: #f3c8c5;
+    --lightpink: rgb(255, 215, 251);
+    --yellow: #f0d096;
+    --seagreen: #59afba;
+    --lightblue: #9ad5df;
+    --darkblue: #205566;
+    --m-turquoise: #84a69d;
+}
+
+main{
+    background: black;
+}
+
+h1 {
+    color: var(--darkblue);
+    text-shadow: 5px 5px 5px var(--lightblue);
+}
+
+p {
+    text-shadow: 3px 3px 3px rgb(255, 255, 255);
+    font-weight: 700;
+}
+
+a {
+    text-decoration: none;
+    color: var(--white);
+}
+
+img {
+    height: 40px;
+    background-repeat: no-repeat;
+    margin-left: 50px;
+}
+
+li {
+    list-style: none;
+}
+
+.section {
+    background: white;
+}
+
+/**** navigation bar ****/
+
+.nav-container {
+    display: flex;
+    align-items: center;
+    height: 50px;
+    margin: 1px;
+    padding: 10px 0;
+    box-shadow: 0px 2px 5px gray;
+}
+
+.nav-logo {
+    width: 90px;
+    height: 90px;
+    margin: 0 10px;
+}
+
+.nav-logo:hover {
+    cursor: pointer;
+}
+
+.nav-menu {
+    display: flex;
+    align-items: center;
+    gap: 220px;
+    margin-left: 70px;
+}
+
+.nav-list:hover {
+    cursor: pointer;
+    border: 2px solid var(--lightred);
+    border-radius: 4px;
+    padding: 14px 20px;
+    box-shadow: 5px 5px 4px var(--lightred);
+}
+
+.nav-list a {
+    font-size: 1.3rem;
+    font-weight: 800;
+    text-shadow: 2px 2px 1px var(--lightred);
+}
+
+/**** greeting section ****/
+
+#greeting-section {
+    background:rgb(255, 255, 255);
+    height: 500px;
+    padding: 30px 20px;
+    font-weight: 700;
+}
+
+/***** portfolio-image section ****/
+
+#portfolio-img img {
+    height: 30rem;
+    float: left;
+    margin: 40px;
+    margin-left: 100px;
+    box-shadow: 10px 10px 10px var(--lightred);
+    
+}
+
+/***** img pattern section ****/
+
+/* square */
+
+.square {
+    border-radius: 4px;
+    margin-left: 100px;
+    background: linear-gradient(to bottom right, var(--lightred), rgba(255, 255, 255, 0.326), rgba(255, 255, 255, 0));
+    position: absolute;
+}
+
+.square-0 {
+    width: 140px;
+    height: 140px;
+    top: 120px;
+    left: 30px;
+    border-radius: 0px;
+}
+
+.square-1 {
+    width: 140px;
+    height: 140px;
+    top: 130px;
+    left: 40px;
+}
+
+.square-2 {
+    width: 80px;
+    height: 80px;
+    top: 220px;
+    left: 230px;
+    background: linear-gradient(to top right, #fafafa00, #fafafa00, #ffeaeae6);
+}
+
+.square-3 {
+    width: 100px;
+    height: 100px;
+    top: 330px;
+    left: 220px;
+    background: linear-gradient(to top right, #fafafa00, #fafafa00, #ffdcdc51);
+}
+
+/**** circle *****/
+
+.circle {
+    width: 140px;
+    height: 140px;
+    border-radius: 100px;
+    margin-left: 100px;
+    position: absolute;
+    background: linear-gradient(to top left, #fafafa00, #ffd1d1dc);
+}
+
+.circle-0 {
+    top: 140px;
+    left: 50px;
+    background: linear-gradient(to top left, #fafafa00, #ffd1d1a9);
+}
+
+.circle-1 {
+    width: 80px;
+    height: 80px;
+    top: 230px;
+    left: 220px;
+}
+
+.circle-2 {
+    width: 110px;
+    height: 110px;
+    top: 295px;
+    left: 40px;
+}
+
+.circle-3 {
+    width: 100px;
+    height: 100px;
+    top: 350px;
+    left: 200px;
+    background: linear-gradient(to top left, #fafafa00, #ffd1d1a9);
+}
+
+.circle-4 {
+    width: 95px;
+    height: 95px;
+    top: 420px;
+    left: 75px;
+}
+
+.circle-5 {
+    width: 90px;
+    height: 90px;
+    top: 480px;
+    left: 160px;
+    background: linear-gradient(to top left, #fafafa00, #ffd1d1a9);
+}
+
+.circle:hover {
+    background: linear-gradient(to top left, #fafafa00, #ffd1d1b9);
+    cursor: pointer;
+}
+
+/**** about section ****/
+
+#about-section {
+    background: rgb(192, 192, 192);
+    height: 600px;
+    margin-top: 3px;
+}
+
+.about-page{
+    height: 500px;
+    background: white;
+    border: 2px solid lightgray;
+    border-radius: 4px;
+    margin: 10px 5px;
+}
+
+#about-section h1 {
+    padding: 10px 20px;
+    height: 60px;
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+#about-section p {
+    padding: 20px;
+    height: 70px;
+}
+
+/**** project section ****/
+
+#project-section {
+    height: 850px;
+    background: rgb(192, 192, 192);
+    margin: 5px 0 0  0;
+}
+
+.project-head h1 {
+    padding: 5px 20px;
+    height: 70px;
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.project-head hr {
+    height: 3px;
+}
+
+.project {
+    background: rgb(255, 255, 255);
+    margin: 15px 0;
+    padding: 15px 15px;
+    box-shadow: 5px 5px 5px rgb(9, 9, 9);
+    border-radius: 3px;
+    height: 200px;
+}
+
+.project hr {
+    margin-top: 10px;
+    height: 3px;
+}
+
+.project p {
+    margin-top: 20px;
+}
+
+/* color: rgb(30, 178, 185); */
+
+.project a {
+    color: black;
+    text-decoration: none;
+    font-weight: 700;
+    margin: 20px;
+}
+
+.project-1 {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.project-2 {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.project-3 {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+/**** skill section ****/
+
+#skill-section {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.skill-container {
+    width: 100vw;
+    height: 200px;
+}
+
+.skill-box {
+    display: flex;
+    height: 200px;
+    align-items: center;
+    background-color: rgba(238, 238, 238, 0.319);
+    border-radius: 4px;
+
+}
+
+.skill-head {
+    display: flex;
+    align-items: center;
+    margin: 10px 0px;
+    height: 70px;
+    font-size: 3rem;
+    font-weight: 700;
+    margin: 0 15px;
+}
+
+.skill {
+    width: 150px;
+    height: 70px;
+    border: 3px solid lightgray;
+    border-radius: 4px;
+    color: rgb(44, 44, 44);
+    background: rgb(255, 255, 255);
+    margin: 10px;
+    font-weight: 700;
+}
+
+.skill p {
+    text-shadow: 5px 5px 5px rgb(169, 169, 169);
+    height: 25px;
+    font-size: 1rem;
+}
+
+/**** footer Section ****/
+
+footer{
+    background: #205566;
+    height: 200px;
+    display: flex;
+}
+
+/**** contact section ****/
+
+#contact-section {
+    justify-content: space-evenly;
+    align-items: center;
+}
