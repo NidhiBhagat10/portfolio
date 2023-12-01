@@ -9,92 +9,82 @@
 </head>
 
 <body>
-    <header class="nav-bar">
-        <div class="nav-container">
+    <header id="nav">
+        <div class="logo">
+            <img src="assets/cvlogo.png" alt="CodeVerse Logo">
+        </div>
 
-            <div class="cv-logo">
-                <img class="nav-logo" src="image/cvlogo.png" alt="CodeVerse Logo">
-            </div>
+        <div class="nav-menu">
 
-            <ul class="nav-menu">
-                <li class="nav-list">
-                    <a href="#about-section">About me</a>
-                </li>
+            <a href="#about-section">ABOUT ME</a>
 
-                <li class="nav-list">
-                    <a href="#skill-section">Skills</a>
-                </li>
+            <a href="#skill-section">BLOG</a>
 
-                <li class="nav-list">
-                    <a href="#project-section"> Projects</a>
-                </li>
+            <a href="#project-section">PROJECT</a>
 
-                <li class="nav-list">
-                    <a href="#contact-section">Contact</a>
-                </li>
+            <a href="#contact-section">CONTECT</a>
 
-                <li class="nav-list">
-                    <a href="#">Resume</a>
-                </li>
-            </ul>
+            <a href="#">RESUME</a>
         </div>
     </header>
 
     <main class="main-content">
-        <div class="first-section section">
-            <div id="portfolio-img">
-                <div class="square-pattern">
-                    <div class="square-0 square"></div>
-                    <div class="square-1 square"></div>
-                    <div class="square-2 square"></div>
-                    <div class="square-3 square"></div>
-                </div>
 
-                <img src="image/portfolio-img-color.png" alt="Portfolio-Image">
+        <!--<img class="bg-leaves" src="assets/leaves1.png"> -->
+        <section id="greeting" class="section-1">
+            <div class="greet">
 
-                <div class="circle-pattern">
-                    <div class="circle-0 circle"></div>
-                    <div class="circle-1 circle"></div>
-                    <div class="circle-2 circle"></div>
-                    <div class="circle-3 circle"></div>
-                    <div class="circle-4 circle"></div>
-                    <div class="circle-5 circle"></div>
-                </div>
-
-            </div>
-
-            <div id="greeting-section" class="section">
-
-                <h1>Hello! <br>I'm Nidhi, a <br> Web Developer <br> from India.</h1>
+                <h1>Hello! <br>I'm <span class="name">Nidhi</span>, a <br> Web Developer <br> from India.</h1>
                 <br>
-                <p> I have completed my B-tech Graduation from New Government Engineering College, Raipur Chhattisgarh.
-                    I am currently learning Data Structure and Algorithm in Java.</p>
-            </div>
-        </div>
-
-        <div id="about-section" class="section">
-
-            <h1>About me</h1>
-            <hr>
-            <div class="about-page">
                 <p>
-                    Hello, my name is Nidhi Bhagat, an Aspiring web developer with a strong foundation in HTML, CSS and
-                    JavaScript and eager to expand expertise in back end Development.
-                    Enthusiastic about creating interactive and user-friendly website.
+                    I am <b> an Aspiring web developer</b> with a strong foundation in HTML, CSS and JavaScript and
+                    eager to expand expertise in back end Development. <br> I'm Enthusiastic about creating<b> interactive,
+                        Responsive </b>and <b>user-friendly</b> website.
                 </p>
             </div>
-        </div>
 
-        <div id="project-section" class="section">
+            <div class="flower">
+                <img class="guiama1" src="assets/giu-ama.png">
+            </div>
+        </section>
+
+        <section id="about" class="section-2">
+
+            <div class="about-head">
+                <h1 class="QnA">
+                    console.log( " Hello World! " )
+                </h1>
+            </div>
+
+            <div class="about-txt">
+
+                <p><span class="hello">Hello,</span> My name is <b>Nidhi Bhagat</b>,</span> I have completed my B-tech
+                    Graduation from New Government Engineering College, Raipur
+                    Chhattisgarh. I am currently learning full stack web developmentand and Data Structure and Algorithm
+                    in Java.
+                    <br><br>
+
+                    In my spare time I like to sketch, play guitar, Knit and dnace. I also like taking pictures and
+                    filming nature. I like spending quality time with my family and friends.
+                    <br><br>
+                    In this journey of mine there is always something new to learn and I am Happy to say that I am a
+                    life long lerner.
+                </p>
+
+                <img src="assets/portfolio-img-color.png">
+            </div>
+
+        </section>
+
+        <section id="project" class="section-3">
             <div class="project-head">
                 <h1>Projects</h1>
-                <hr>
             </div>
 
             <div class="project-1 project">
 
                 <h1>3D Converter using Augmented Reality</h1>
-                <hr>
+
                 <p>This is an application which covertes 2D image into 3D model. This project is based on marker based
                     Augmented reality where when we scan an image through scanner in superimposes a 3D model
                     corresponding to that image. This was our Major project of B-tech that was made by me and 2 of my
@@ -107,7 +97,7 @@
             <div class="project-2 project">
 
                 <h1>CodeVerse</h1>
-                <hr>
+
                 <p> CodeVerse is a bloging wedsite of mine. Where I blog about anything I learn or feel like to
                     share. Currently I am writing about my coding journey in java.
                 </p><br>
@@ -117,60 +107,99 @@
 
             <div class="project-3 project">
                 <h1>Amazone Clone </h1>
-                <hr>
+
                 <p> This project is a clone of an online shopping website Amazone.com. Here I have used HTML and CSS
                     only.
                 </p> <br>
 
                 <a href="#">visite site here</a>
             </div>
-        </div>
+        </section>
 
-        <div id="skill-section" class="section">
+        <section id="AR-VR" class="section-4">
+        </section>
+
+        <section id="skill" class="section-5">
 
             <div class="skill-container">
+                <h1 class="skill">
+                    Skills
+                </h1>
 
-                <div class="skill-box">
-                    <h1 class="skill-head">Skills</h1>
-                    <hr>
-                    <div class="html-css-section skill">
-                        <p>HTML and CSS</p>
-                        <div class="logo">
-                            <img src="image/html-logo.png" alt="html-logo">
-                        </div>
-                    </div>
+                <div class="webdesign">
+                    Web Designing
+                </div>
 
-                    <div class="js-section skill">
-                        <p>JavaScript</p>
-                        <div class="logo">
-                            <img src="image/logo-javascript-2.png" alt="">
-                        </div>
-                    </div>
+                <div class="html">
+                    <p>HTML and CSS</p>
+                </div>
 
-                    <div class="java-section skill">
-                        <p>Java Programming</p>
-                        <div class="logo">
-                            <img src="image/Java_logo.png" alt="">
-                        </div>
-                    </div>
+                <div class="js">
+                    <p>JavaScript</p>
+                </div>
 
-                    <div class="cpp-section skill">
-                        <p>C++ programming</p>
-                        <div class="logo-4 logo">
-                            <img src="image/C-Logo.wine_.png" alt="">
-                        </div>
-                    </div>
+                <div class="mysql">
+                    <p>MySQL</p>
+                </div>
 
-                    <div class="sql-section skill">
-                        <p>MySQL</p>
-                        <div class="logo">
-                            <img src="image/mysql_PNG34.png" alt="">
-                        </div>
-                    </div>
+                <div class="java">
+                    <p>Java Programming</p>
+                </div>
+
+                <div class="cpp">
+                    <p>C++ programming</p>
+                </div>
+
+            </div>
+
+            <div class="hobbies">
+                <h1 class="hobby">
+                    Hobbies
+                </h1>
+                <div class="sketching">
+                    <p>Sketching</p>
+                </div>
+
+                <div class="sketching">
+                    <p>Blogging</p>
+                </div>
+
+                <div class="singing">
+                    <p>Singing</p>
+                </div>
+
+                <div class="design">
+                    <p>Designing</p>
+                </div>
+
+                <div class="travel">
+                    <p>Travelling</p>
                 </div>
             </div>
-        </div>
+
+            <div id="resume">
+                <p>To now more about me please Check out my Resume</p>
+                <button class="button">
+                    Resume
+                </button>
+            </div>
+        </section>
     </main>
+    <footer>
+        <a href="">GitHub</a>
+
+        <a href="">Gmail: nidhibhagat108@gmail.com</a>
+
+        <a href="">CodeChef</a>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.3/gsap.min.js"
+        integrity="sha512-7Au1ULjlT8PP1Ygs6mDZh9NuQD0A5prSrAUiPHMXpU6g3UMd8qesVnhug5X4RoDr35x5upNpx0A6Sisz1LSTXA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.3/ScrollTrigger.min.js"
+        integrity="sha512-LQQDtPAueBcmGXKdOBcMkrhrtqM7xR2bVrnMtYZ8ImAZhFlIb5xrMqQ6uZviyeSB+4mYj89ta8niiCIQM1Gj0w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="script.js"></script>
 </body>
 
 </html>
