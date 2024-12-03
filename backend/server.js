@@ -15,7 +15,7 @@ app.use(express.json());
 //API routes
 
 app.get("/api", (req, res) => {
-    res.send("Welcome to the Portfolio API");
+    res.send("Welcome to the Portfolio");
 })
 
 // connect to mongoDB
